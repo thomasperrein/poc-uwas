@@ -28,3 +28,9 @@ python3 -m venv .venv # create a virtual env
 source .venv/bin/activate
 poetry install
 ```
+
+5. Add secrets in a .env file, ask me for the secrets
+
+```
+cp .env.example .env
+```
