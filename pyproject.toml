@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poc-uwas"
+version = "0.1.0"
+description = "Proof of Concept of Un Week-end Au Soleil app"
+authors = ["Thomas Perrein <perrein.thomas.tipe@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+duckdb = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
