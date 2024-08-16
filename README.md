@@ -34,3 +34,10 @@ poetry install
 ```
 cp .env.example .env
 ```
+
+6. To launch
+
+```
+python <name_of_pipeline.py>
+dlt pipeline test show
+```
