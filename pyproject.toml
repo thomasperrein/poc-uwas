@@ -6,9 +6,11 @@ authors = ["Thomas Perrein <perrein.thomas.tipe@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.13"
 duckdb = "^1.0.0"
 python-dotenv = "^1.0.1"
+dlt = "^0.5.2"
+streamlit = "^1.37.1"
 
 
 [build-system]
