@@ -10,6 +10,8 @@ pipeline = dlt.pipeline(
     destination="duckdb",
     dataset_name="public",
 )
-load_info = pipeline.run(data, table_name="tourists_places")
+load_info = pipeline.run(
+    data, table_name="tourists_places", write_disposition="replace"
+)
 
 print(load_info)
