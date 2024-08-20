@@ -23,8 +23,8 @@ def get_weather_data():
 
 
 pipeline = dlt.pipeline(
-    pipeline_name="test",
-    destination="duckdb",
+    pipeline_name="wheather_pipeline",
+    destination=dlt.destinations.duckdb("./test.duckdb"),
     dataset_name="public",
 )
 load_info = pipeline.run(
