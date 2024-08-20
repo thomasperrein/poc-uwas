@@ -39,7 +39,7 @@ cp .env.example .env
 
 ```
 python <name_of_pipeline.py>
-dlt pipeline test show
+dlt pipeline <name_of_pipeline> show
 ```
 
 7. To launch dbt
