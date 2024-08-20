@@ -26,8 +26,8 @@ def get_tourists_places():
 
 
 pipeline = dlt.pipeline(
-    pipeline_name="test",
-    destination="duckdb",
+    pipeline_name="tourists_places_pipeline",
+    destination=dlt.destinations.duckdb("./test.duckdb"),
     dataset_name="public",
 )
 load_info = pipeline.run(
